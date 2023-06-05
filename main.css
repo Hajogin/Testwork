@@ -86,10 +86,7 @@ main {
 .telephoneDirectory h3 {
     text-align: center;
 }
-.telephoneDirectory {
-    display: flex;
-    flex-direction: column;
-}
+
 .telephoneDirectory th {
     padding: 20px;
 }

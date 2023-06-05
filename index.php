@@ -3,7 +3,8 @@
 <head>
     <title>Телефонный справочник</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="icon" type="image/x-icon" href="favicon.png">
 </head>
 <body>
 <?php
