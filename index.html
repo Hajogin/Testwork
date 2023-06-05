@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Телефонный справочник</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+<main>
+    <div class="add-field">
+        <p>Добавить контакт в справочник</p>
+        <a href="#openModal"><button>Добавить</button></a>
+        <div id="openModal" class="modalDialog">
+            <div class="windows">
+                <a href="#close" title="Закрыть" class="close">X</a>
+                <form action="" method="post">
+                    <input type="text" name="Name" value="<?= isset($_GET['red']) ? $product['Name'] : ''; ?>" placeholder="Введите ваши ФИО"><br>
+                    <input type="tel" name="Price"  value="<?= isset($_GET['red']) ? $product['Price'] : ''; ?>" placeholder="Введите ваш телефон"><br>
+                    <input type="text" name="about" value="<?= isset($_GET['red']) ? $product['about'] : ''; ?>" placeholder="Кем приходитесь"><br>
+                    <input type="submit" value="Добавить">
+                </form>
+            </div>
+        </div>
+    </div>
+        <div class="telephoneDirectory">
+            <h3>Телефонный справочник</h3>
+
+        </div>
+</main>
+</body>
+</html>
